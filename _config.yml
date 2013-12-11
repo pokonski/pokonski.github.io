@@ -1,3 +1,4 @@
 markdown: redcarpet
 pygments: true
 url: http://pokonski.github.io
+exclude: Gemfile, Gemfile.lock, Rakefile
