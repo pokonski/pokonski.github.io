@@ -1,0 +1,17 @@
+- name: Hatak.pl
+  url: http://hatak.pl
+  company: Hatak Media
+  dates: March 2011 – June 2011
+  description: Hired to rebuild the website according to the new design and extend functionality of the custom CMS written in PHP. Also responsible for administration and implementing occasional ad campaigns.
+
+- name: JohnnyBet.com
+  url: http://johnnybet.com
+  company: Chrisper & Julian Group
+  dates: July 2011 – October 2012
+  description: Lead developer responsible for building a social networking site for fans of sports betting. Project consisted of building a full-stack application, from designing the databases to front-end scripting and directly working with designers.
+
+- name: LonelyPlanet.com
+  url: http://lonelyplanet.com
+  company: Go Rails Go
+  dates: November 2012 – current
+  description: Team lead and a senior Rails developer working on processing data coming from various partner APIs. Task included aggregating, sanitizing and normalizing data from extremely diverse sources to be displayed on LonelyPlanet.com.
