@@ -2,6 +2,14 @@ body {
   padding-top: 20px;
 }
 
+a, a:hover {
+  color: #13496F;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .name, .contact {
   margin-bottom: 30px;
 }

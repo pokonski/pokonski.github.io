@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Piotr Okoński's résumé
+title: Piotr Okoński's resume
 ---
 
 .row.name
@@ -8,8 +8,7 @@ title: Piotr Okoński's résumé
     .row
       .large-offset-2.large-5.columns
         h1.medium.no-margin-bottom Piotr Okoński
-        h3.subheader Rails developer
-
+        h3.subheader Ruby developer
 
 .row.contact
   .large-9.columns
@@ -48,6 +47,24 @@ title: Piotr Okoński's résumé
       .large-2.columns
         | &nbsp;
       .large-10.columns
+        h2.header Open Source
+
+    | {% for project in site.data.open_projects %}
+    .row
+      .large-2.columns.field
+        h4.subheader.show-for-large-up &nbsp;
+        h5.subheader.show-for-large-up &nbsp;
+      .large-10.columns
+        h4.subheader
+          a href="{{ project.url }}" {{ project.name }}
+        p
+          | {{ project.description }}
+    | {% endfor %}
+
+    .row
+      .large-2.columns
+        | &nbsp;
+      .large-10.columns
         h2.header Education
 
     .row
@@ -58,5 +75,9 @@ title: Piotr Okoński's résumé
         h5.subheader
           em University of Gdańsk
 
-  .large-3.columns
+
+  .large-3.columns.skills
     h2.header Skills
+    | {% for skill in site.data.skills %}
+    h4.subheader {{ skill.name }}
+    | {% endfor %}

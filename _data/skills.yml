@@ -1,0 +1,8 @@
+- name: Git
+- name: Linux
+- name: PostgreSQL
+- name: Redis
+- name: RSpec
+- name: Ruby on Rails
+- name: Java Script
+- name: Coffee Script
