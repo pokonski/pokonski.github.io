@@ -1,8 +1,9 @@
 - name: Ruby on Rails
 - name: PostgreSQL
-- name: React
-- name: TypeScript
 - name: JavaScript
+- name: React
+- name: Redux
+- name: TypeScript
 - name: Webpack
 - name: Redis
 - name: RSpec

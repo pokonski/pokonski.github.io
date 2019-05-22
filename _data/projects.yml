@@ -3,8 +3,9 @@
   company: Toptal
   dates: April 2019 - current
   description: Developing a GraphQL API in Rails for a new iOS/Android mobile app designed for freelancers to find jobs and communicate with clients easier.
+
 - name: TopTracker
-  url: https://toptal.com
+  url: https://toptal.com/tracker
   company: Toptal
   dates: October 2016 - April 2019
   description: Lead developer responsible for maintaining and developing the Ruby on Rails and Grape API for the best and free time tracking tool for freelancers, TopTracker. With thousands of active daily users most challanges I solved was centered around improving performance and scalability.
@@ -18,7 +19,7 @@
 - name: LonelyPlanet.com
   url: https://lonelyplanet.com
   company: Go Rails Go
-  dates: November 2012 - current
+  dates: November 2012 - October 2014
   description: Team lead and a senior Rails developer working on processing data coming from various partner APIs. Task included aggregating, sanitizing and normalizing data from extremely diverse sources to be used by front-end <a href="http://lonelyplanet.com">lonelyplanet.com</a>.
 
 - name: JohnnyBet.com
