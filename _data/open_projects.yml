@@ -1,7 +1,9 @@
 - name: PublicActivity
-  url: https://github.com/pokonski/public_activity
+  url: https://github.com/chaps-io/public_activity
   description: With over 1100 stars and 100 forks, PublicActivity is the most popular choice for building activity feeds in Rails. Inspired by GitHub's own activity feed.
-
 - name: AccessGranted
-  url: https://github.com/pokonski/access-granted
+  url: https://github.com/chaps-io/access-granted
   description: Created as replacement for CanCan, AccessGranted is multi-role and whitelist based authorization gem for Rails. Permissions are easy to maintain and readable, no matter how complex.
+- name: Gush
+  url: https://github.com/chaps-io/gush
+  description: Gush is a parallel workflow runner using only Redis as storage and ActiveJob for scheduling and executing jobs.

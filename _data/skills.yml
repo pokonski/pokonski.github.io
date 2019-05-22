@@ -1,10 +1,12 @@
 - name: Ruby on Rails
+- name: PostgreSQL
+- name: React
+- name: TypeScript
+- name: JavaScript
+- name: Webpack
+- name: Redis
+- name: RSpec
 - name: Git
 - name: Slim
 - name: SCSS
 - name: Linux
-- name: PostgreSQL
-- name: Redis
-- name: RSpec
-- name: JavaScript
-- name: CoffeeScript

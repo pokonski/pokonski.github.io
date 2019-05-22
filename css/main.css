@@ -2,15 +2,17 @@ body {
   padding-top: 20px;
 }
 
-a, a:hover {
-  color: #13496F;
+a,
+a:hover {
+  color: #13496f;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.name, .contact {
+.name,
+.contact {
   margin-bottom: 30px;
 }
 
@@ -22,19 +24,24 @@ a:hover {
   margin-top: 0;
 }
 
-body, h1, h2, h3, h4, h5 {
-  font-family: 'Ubuntu', sans-serif;
-  color: #2F3438;
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Ubuntu", sans-serif;
+  color: #2f3438;
 }
 
 .value {
-  color: #2F3438;
+  color: #2f3438;
   line-height: 1.5em;
 }
 
 .field {
   line-height: 1.5em;
-  color: #8E99A3;
+  color: #8e99a3;
 }
 
 .medium {
@@ -42,19 +49,11 @@ body, h1, h2, h3, h4, h5 {
 }
 
 .subheader {
-  color: #6D6D6D;
-}
-
-.subheader a {
-  color: #6D6D6D;
+  color: #6d6d6d;
 }
 
 .subheader a:hover {
-  border-bottom: 1px dashed #6D6D6D;
-}
-
-.header {
-  color: #13496F;
+  border-bottom: 1px dashed #6d6d6d;
 }
 
 @media only screen and (min-width: 64.063em) {

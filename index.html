@@ -1,0 +1,127 @@
+---
+layout: default
+title: Piotr Okoński's resume
+---
+
+<div class="row name">
+  <div class="large-9 columns">
+    <div class="row">
+      <div class="large-offset-2 large-5 columns">
+        <h1 class="medium no-margin-bottom">Piotr Okoński</h1>
+        <h3 class="subheader">Ruby developer</h3>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row contact">
+  <div class="large-9 columns">
+    <div class="row">
+      <div class="large-2 columns field large-text-right">e-mail:</div>
+      <div class="large-10 columns value">piotrek@okonski.org</div>
+    </div>
+    <div class="row">
+      <div class="large-2 columns field large-text-right">github:</div>
+      <div class="large-10 columns">
+        <a class="value" href="https://github.com/pokonski"
+          >github.com/pokonski</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="large-9 columns">
+    <div class="row">
+      <div class="large-2 columns">
+        &nbsp;
+      </div>
+      <div class="large-10 columns">
+        <h2 class="header">Projects</h2>
+      </div>
+    </div>
+    {% for project in site.data.projects %}
+    <div class="row">
+      <div class="large-2 columns field">
+        <h4 class="subheader show-for-large-up">&nbsp;</h4>
+        <h5 class="subheader show-for-large-up">&nbsp;</h5>
+        {{ project.dates }}
+      </div>
+      <div class="large-10 columns">
+        <h4 class="subheader">
+          <a href="{{ project.url }}">{{ project.name }}</a>
+        </h4>
+        <h5 class="subheader">
+          <em>
+            {{ project.company }}
+          </em>
+        </h5>
+        <p>
+          {{ project.description }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="row">
+      <div class="large-2 columns">
+        &nbsp;
+      </div>
+      <div class="large-10 columns">
+        <h2 class="header">Open Source</h2>
+      </div>
+    </div>
+    {% for project in site.data.open_projects %}
+    <div class="row">
+      <div class="large-2 columns field">
+        <h4 class="subheader show-for-large-up">&nbsp;</h4>
+        <h5 class="subheader show-for-large-up">&nbsp;</h5>
+      </div>
+      <div class="large-10 columns">
+        <h4 class="subheader">
+          <a href="{{ project.url }}">
+            {{ project.name }}
+            </br>
+            <a
+              class="github-button"
+              href="{{ project.url }}"
+              data-icon="octicon-star"
+              data-show-count="true"
+              aria-label="Star {{ project.name }} on GitHub"
+              >Star</a
+            >
+          </a>
+        </h4>
+        <p>
+          {{ project.description }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="row">
+      <div class="large-2 columns">
+        &nbsp;
+      </div>
+      <div class="large-10 columns">
+        <h2 class="header">Education</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-2 columns field">
+        October 2009 – June 2012
+      </div>
+      <div class="large-10 columns">
+        <h4 class="subheader">Bachelor’s, Computer Science</h4>
+        <h5 class="subheader">
+          <em>University of Gdańsk </em>
+        </h5>
+      </div>
+    </div>
+  </div>
+  <div class="large-3 columns skills">
+    <h2 class="header">Skills</h2>
+    {% for skill in site.data.skills %}
+    <h4 class="subheader">{{ skill.name }}</h4>
+    {% endfor %}
+  </div>
+</div>

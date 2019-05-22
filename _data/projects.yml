@@ -1,11 +1,28 @@
+- name: Toptal Mobile Talent App
+  url: https://toptal.com
+  company: Toptal
+  dates: April 2019 - current
+  description: Developing a GraphQL API in Rails for a new iOS/Android mobile app designed for freelancers to find jobs and communicate with clients easier.
+- name: TopTracker
+  url: https://toptal.com
+  company: Toptal
+  dates: October 2016 - April 2019
+  description: Lead developer responsible for maintaining and developing the Ruby on Rails and Grape API for the best and free time tracking tool for freelancers, TopTracker. With thousands of active daily users most challanges I solved was centered around improving performance and scalability.
+
+- name: Kerboo
+  url: https://kerboo.com
+  company: LinkRisk
+  dates: November 2014 - January 2016
+  description: Developing the award winning SEO product suite to handle the evergrowing client. Created an asynchronous work scheduler for over 140 Sidekiq machines to handle data processing.
+
 - name: LonelyPlanet.com
-  url: http://lonelyplanet.com
+  url: https://lonelyplanet.com
   company: Go Rails Go
   dates: November 2012 - current
   description: Team lead and a senior Rails developer working on processing data coming from various partner APIs. Task included aggregating, sanitizing and normalizing data from extremely diverse sources to be used by front-end <a href="http://lonelyplanet.com">lonelyplanet.com</a>.
 
 - name: JohnnyBet.com
-  url: http://johnnybet.com
+  url: https://johnnybet.com
   company: Chrisper & Julian Group
   dates: July 2011 - October 2012
   description: Lead developer responsible for building a social networking site for fans of sports betting. Project consisted of building a full-stack application, from designing the databases to front-end scripting and directly working with designers.
@@ -15,5 +32,3 @@
   company: Hatak Media
   dates: March 2011 - June 2011
   description: Hired to rebuild the website according to the new design and extend functionality of the custom CMS written in PHP. Also responsible for administration and implementing occasional ad campaigns.
-
-
