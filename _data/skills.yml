@@ -1,13 +1,17 @@
 - name: Ruby on Rails
+  highlight: true
 - name: PostgreSQL
 - name: JavaScript
 - name: React
+  highlight: true
 - name: Redux
 - name: TypeScript
-- name: Webpack
+- name: GraphQL
+  highlight: true
 - name: Redis
 - name: RSpec
+  highlight: true
 - name: Git
-- name: Slim
-- name: SCSS
+- name: Flutter & Dart
+- name: CSS/SCSS
 - name: Linux

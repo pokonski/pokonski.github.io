@@ -7,8 +7,8 @@ title: Piotr Okoński's resume
   <div class="large-9 columns">
     <div class="row">
       <div class="large-offset-2 large-5 columns">
-        <h1 class="medium no-margin-bottom">Piotr Okoński</h1>
-        <h3 class="subheader">Ruby developer</h3>
+        <h1 class="no-margin-bottom">Piotr Okoński</h1>
+        <h3 class="subheader">Web engineer</h3>
       </div>
     </div>
   </div>
@@ -17,15 +17,19 @@ title: Piotr Okoński's resume
   <div class="large-9 columns">
     <div class="row">
       <div class="large-2 columns field large-text-right">e-mail:</div>
-      <div class="large-10 columns value">piotrek@okonski.org</div>
+      <div class="large-10 columns value">
+        <a class="value" href="mailto:piotrek@okonski.org">piotrek@okonski.org</a>
+      </div>
     </div>
     <div class="row">
       <div class="large-2 columns field large-text-right">github:</div>
       <div class="large-10 columns">
-        <a class="value" href="https://github.com/pokonski"
-          >github.com/pokonski</a
-        >
+        <a class="value" href="https://github.com/pokonski">github.com/pokonski</a>
       </div>
+    </div>
+    <div class="row">
+      <div class="large-2 columns field large-text-right">experience:</div>
+      <div class="large-10 columns value">10+ years</div>
     </div>
   </div>
 </div>
@@ -51,9 +55,7 @@ title: Piotr Okoński's resume
           <a href="{{ project.url }}">{{ project.name }}</a>
         </h4>
         <h5 class="subheader">
-          <em>
-            {{ project.company }}
-          </em>
+          {{ project.company }}
         </h5>
         <p>
           {{ project.description }}
@@ -113,7 +115,7 @@ title: Piotr Okoński's resume
       <div class="large-10 columns">
         <h4 class="subheader">Bachelor’s, Computer Science</h4>
         <h5 class="subheader">
-          <em>University of Gdańsk </em>
+          University of Gdańsk
         </h5>
       </div>
     </div>
@@ -121,7 +123,7 @@ title: Piotr Okoński's resume
   <div class="large-3 columns skills">
     <h2 class="header">Skills</h2>
     {% for skill in site.data.skills %}
-    <h4 class="subheader">{{ skill.name }}</h4>
+    <h4 class="subheader {% if skill.highlight %} highlighted {% endif %}">{{ skill.name }}</h4>
     {% endfor %}
   </div>
 </div>
