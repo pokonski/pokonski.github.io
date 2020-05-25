@@ -52,10 +52,6 @@ h5 {
   color: #6d6d6d;
 }
 
-.subheader a:hover {
-  border-bottom: 1px dashed #6d6d6d;
-}
-
 .subheader.highlighted {
   color: #13496f;
 }
