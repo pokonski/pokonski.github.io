@@ -1,0 +1,63 @@
+body {
+  padding-top: 20px;
+}
+
+a,
+a:hover {
+  font-weight: 400;
+  color: #13496f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.name,
+.contact {
+  margin-bottom: 30px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2f3438;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.value {
+  color: #2f3438;
+  line-height: 1.5em;
+}
+
+.field {
+  line-height: 1.5em;
+  color: #8e99a3;
+}
+
+.subheader {
+  color: #6d6d6d;
+}
+
+.subheader.highlighted {
+  color: #13496f;
+}
+
+@media only screen and (min-width: 64.063em) {
+  .large-text-right {
+    text-align: right;
+  }
+}
