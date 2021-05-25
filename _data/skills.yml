@@ -12,6 +12,7 @@
 - name: RSpec
   highlight: true
 - name: Git
+- name: Google Cloud Platform
 - name: Flutter & Dart
 - name: CSS/SCSS
 - name: Linux
