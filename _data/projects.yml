@@ -1,8 +1,8 @@
-- name: Mobile Talent App
-  url: https://toptal.com
-  company: Toptal
-  dates: April 2019 - current
-  description: Developing a GraphQL API in Ruby on Rails for a new iOS/Android mobile app designed for freelancers to find jobs and communicate with clients easier.
+- name: Online event management platform
+  url: https://hopin.com
+  company: Hopin
+  dates: July 2021 - current
+  description: Working on backend side to develop and maintain REST APIs written in Ruby on Rails/Grape to create a Schedules microservice used by React microfrontends in a growing SOA environment.
 
 - name: Collabshot
   url: https://collabshot.com
